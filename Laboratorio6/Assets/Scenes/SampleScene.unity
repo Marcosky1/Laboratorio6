@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   planeta: {fileID: 1862972567}
-  velocidadOrbita: 1
+  velocidadOrbita: 0.5
 --- !u!135 &30502289
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -345,7 +345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   planeta: {fileID: 1862972567}
-  velocidadOrbita: 1
+  velocidadOrbita: 0.5
 --- !u!135 &124013269
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -837,7 +837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   planeta: {fileID: 1862972567}
-  velocidadOrbita: 1
+  velocidadOrbita: 0.5
 --- !u!135 &1280609923
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1334,7 +1334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   planeta: {fileID: 1862972567}
-  velocidadOrbita: 1
+  velocidadOrbita: 0.5
 --- !u!135 &2140005845
 SphereCollider:
   m_ObjectHideFlags: 0

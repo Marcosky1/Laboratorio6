@@ -5,20 +5,16 @@ using UnityEngine;
 public class OrbitaPlaneta : MonoBehaviour
 {
     public Transform planeta;
-    public float velocidadOrbita = 2.5f;
-    private Vector3 offset;
-
-    void Start()
-    {
-        offset = transform.position - planeta.position;
-    }
+    public float velocidadOrbita = 0.5f;
 
     void Update()
     {
-        float tiempo = Time.time * velocidadOrbita;
-        float y = Mathf.Cos(tiempo) * offset.y - Mathf.Sin(tiempo) * offset.z;
-        float z = Mathf.Sin(tiempo) * offset.y + Mathf.Cos(tiempo) * offset.z;
+        float angulo = Time.time * velocidadOrbita;
 
-        transform.position = new Vector3(offset.x, y, z) + planeta.position;
+        Quaternion rotacion = Quaternion.Euler(angulo, 0,0);
+
+        Vector3 posicionRelativa = rotacion * (transform.position - planeta.position);
+
+        transform.position = planeta.position + posicionRelativa;
     }
 }
