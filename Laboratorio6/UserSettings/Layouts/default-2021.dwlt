@@ -242,8 +242,8 @@ MonoBehaviour:
     y: 0
     width: 567
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -294,8 +294,8 @@ MonoBehaviour:
     y: 486
     width: 907
     height: 461
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -321,8 +321,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 907
-    y: 73
+    x: 1
+    y: 19
     width: 444
     height: 447
   m_ViewDataDictionary: {fileID: 0}
@@ -333,8 +333,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 76570000
-      m_LastClickedID: 22390
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: 38fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -379,8 +379,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1353
-    y: 73
+    x: 1354
+    y: 19
     width: 566
     height: 926
   m_ViewDataDictionary: {fileID: 0}
@@ -421,8 +421,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 907
-    y: 541
+    x: 1
+    y: 487
     width: 444
     height: 458
   m_ViewDataDictionary: {fileID: 0}
@@ -458,7 +458,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 48580000
     m_LastClickedID: 22600
-    m_ExpandedIDs: 000000003458000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000034580000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -563,7 +563,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 559
+    y: 505
     width: 906
     height: 440
   m_ViewDataDictionary: {fileID: 0}
@@ -656,7 +656,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 73
+    y: 19
     width: 906
     height: 465
   m_ViewDataDictionary: {fileID: 0}
@@ -945,11 +945,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.2764814, y: -0.25936306, z: 0.07778252, w: 0.922115}
     speed: 2
-    m_Value: {x: 0.2777387, y: -0.26062086, z: 0.07858597, w: 0.92128295}
+    m_Value: {x: -0.2764814, y: 0.25936306, z: -0.07778253, w: -0.9221151}
   m_Size:
     m_Target: 910.1795
     speed: 2
-    m_Value: 870.98517
+    m_Value: 910.1795
   m_Ortho:
     m_Target: 0
     speed: 2
